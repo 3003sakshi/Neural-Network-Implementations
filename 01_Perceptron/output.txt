@@ -1,0 +1,77 @@
+Perceptron Training Output
+
+DATASET:NAND GATE
+
+
+Epoch 1
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   1    |     1     |   0   | [0. 0.] | 0.0
+0  1   |   1    |     1     |   0   | [0. 0.] | 0.0
+1  0   |   1    |     1     |   0   | [0. 0.] | 0.0
+1  1   |   0    |     1     |   -1   | [-1. -1.] | -1.0
+
+Epoch 2
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   1    |     0     |   1   | [-1. -1.] | 0.0
+0  1   |   1    |     0     |   1   | [-1.  0.] | 1.0
+1  0   |   1    |     1     |   0   | [-1.  0.] | 1.0
+1  1   |   0    |     1     |   -1   | [-2. -1.] | 0.0
+
+
+Epoch 5
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   1    |     1     |   0   | [-2. -2.] | 1.0
+0  1   |   1    |     0     |   1   | [-2. -1.] | 2.0
+1  0   |   1    |     1     |   0   | [-2. -1.] | 2.0
+1  1   |   0    |     0     |   0   | [-2. -1.] | 2.0
+
+Epoch 6
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   1    |     1     |   0   | [-2. -1.] | 2.0
+0  1   |   1    |     1     |   0   | [-2. -1.] | 2.0
+1  0   |   1    |     1     |   0   | [-2. -1.] | 2.0
+1  1   |   0    |     0     |   0   | [-2. -1.] | 2.0
+
+----------------------------------
+Training completed for NAND Gate
+Status: CONVERGED in 6 epochs
+----------------------------------
+
+DATASET: XOR GATE
+
+
+Epoch 1
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   0    |     1     |   -1   | [0. 0.] | -1.0
+0  1   |   1    |     0     |   1   | [0. 1.] | 0.0
+1  0   |   1    |     1     |   0   | [0. 1.] | 0.0
+1  1   |   0    |     1     |   -1   | [-1.  0.] | -1.0
+
+Epoch 2
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   0    |     0     |   0   | [-1.  0.] | -1.0
+0  1   |   1    |     0     |   1   | [-1.  1.] | 0.0
+1  0   |   1    |     0     |   1   | [0. 1.] | 1.0
+1  1   |   0    |     1     |   -1   | [-1.  0.] | 0.0
+
+
+Epoch 19
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   0    |     1     |   -1   | [-1.  0.] | -1.0
+0  1   |   1    |     0     |   1   | [-1.  1.] | 0.0
+1  0   |   1    |     0     |   1   | [0. 1.] | 1.0
+1  1   |   0    |     1     |   -1   | [-1.  0.] | 0.0
+
+Epoch 20
+x1 x2 | target | predicted | error | weights | bias
+0  0   |   0    |     1     |   -1   | [-1.  0.] | -1.0
+0  1   |   1    |     0     |   1   | [-1.  1.] | 0.0
+1  0   |   1    |     0     |   1   | [0. 1.] | 1.0
+1  1   |   0    |     1     |   -1   | [-1.  0.] | 0.0
+
+----------------------------------
+Training completed for XOR Gate
+Status: FAILED to converge (Not linearly separable)
+----------------------------------
+
+
