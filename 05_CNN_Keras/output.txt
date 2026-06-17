@@ -1,0 +1,31 @@
+OUTPUT :
+
+Effect of Filter Size
+
+Training with Filter Size: 3
+Test Accuracy: 0.9011
+
+Training with Filter Size: 5
+Test Accuracy: 0.9090
+
+
+Effect of Regularization
+Accuracy with Regularization: 0.8947
+
+
+Effect of Batch Size
+
+Training with Batch Size: 32
+Test Accuracy: 0.9093
+
+Training with Batch Size: 128
+Test Accuracy: 0.9009
+
+
+Effect of Optimizer
+
+Training with Optimizer: Adam
+Test Accuracy: ~0.90
+
+Training with Optimizer: SGD
+Test Accuracy: ~0.88
