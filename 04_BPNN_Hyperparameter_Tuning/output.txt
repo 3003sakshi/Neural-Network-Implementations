@@ -1,0 +1,37 @@
+BPNN Hyperparameter Tuning - Output Record
+
+Top 5 Configurations (Sample):
+
+   Activation  Hidden  LearningRate  BatchSize  Epochs  Accuracy
+5     sigmoid       8          0.01          8     100       1.0
+6     sigmoid       8          0.01         16      50       1.0
+4     sigmoid       8          0.01          8      50       1.0
+20    sigmoid      32          0.01          8      50       1.0
+12    sigmoid      16          0.01          8      50       1.0
+
+
+Best Configuration:
+
+Activation Function : Sigmoid
+Hidden Neurons      : 8 
+Learning Rate       : 0.01
+Batch Size          : 8 
+Epochs              : 50 
+Test Accuracy       : 1.0
+
+
+Performance Observations:
+
+-   Higher learning rate (0.01) resulted in faster convergence.
+-   Smaller hidden layer (8 neurons) was sufficient for high accuracy.
+-   Batch size of 8 performed slightly better than 16 in several cases.
+-   Increasing epochs improved performance when learning rate was small.
+-   All activation functions achieved high accuracy due to simplicity of
+    Iris dataset.
+
+Conclusion:
+
+The three-layer neural network successfully achieved high classification
+accuracy across multiple hyperparameter combinations. The best
+performing configuration used Sigmoid activation with 8 hidden neurons
+and learning rate 0.01.
