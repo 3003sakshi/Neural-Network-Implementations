@@ -1,0 +1,14 @@
+Training Output
+
+Epoch 1, Loss: 0.8193, Accuracy: 0.8178
+Epoch 2, Loss: 0.5422, Accuracy: 0.8633
+Epoch 3, Loss: 0.4410, Accuracy: 0.8819
+Epoch 4, Loss: 0.3902, Accuracy: 0.8915
+Epoch 5, Loss: 0.3603, Accuracy: 0.8983
+Epoch 6, Loss: 0.3404, Accuracy: 0.9037
+Epoch 7, Loss: 0.3257, Accuracy: 0.9079
+Epoch 8, Loss: 0.3139, Accuracy: 0.9112
+Epoch 9, Loss: 0.3041, Accuracy: 0.9143
+Epoch 10, Loss: 0.2958, Accuracy: 0.9170
+
+Test Accuracy: 0.9186
