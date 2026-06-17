@@ -1,0 +1,19 @@
+Implementation of MLP for XOR
+
+Final Predictions:
+[[0.0123]
+ [0.9821]
+ [0.9734]
+ [0.0187]]
+
+Rounded Output:
+[0 1 1 0]
+
+Final MSE Loss:
+0.00034
+
+Training Parameters:
+Hidden Neurons: 4
+Learning Rate: 0.1
+Epochs: 10000
+
