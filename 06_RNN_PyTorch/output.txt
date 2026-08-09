@@ -1,0 +1,16 @@
+OUTPUT :
+
+ 1. Training Loss
+
+Epoch [10/100], Loss: 0.7286
+Epoch [20/100], Loss: 0.4947
+Epoch [30/100], Loss: 0.2781
+Epoch [40/100], Loss: 0.0631
+Epoch [50/100], Loss: 0.0270
+Epoch [60/100], Loss: 0.0034
+Epoch [70/100], Loss: 0.0069
+Epoch [80/100], Loss: 0.0035
+Epoch [90/100], Loss: 0.0026
+Epoch [100/100], Loss: 0.002
+
+2. Test Loss : 0.0032
